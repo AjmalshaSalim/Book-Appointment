@@ -1,3 +1,28 @@
 body{
-  background-color: white;
+  background-color: rgb(226, 225, 225)  ;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  height: 59px;
+}
+.leftSide{
+  padding-left: 120px;
+  padding-top: 5px;
+}
+.logoContainer{
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background-color: rgb(255, 103, 103);
+}
+.profile{
+  padding-top: 9px;
+}
+.linkText{
+  color: rgb(1, 118, 196);
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: cornflowerblue;
+  padding-right: 137px;
+  padding-top: 15px;
 }
