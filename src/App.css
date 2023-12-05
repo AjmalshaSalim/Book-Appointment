@@ -1,28 +1,129 @@
-body{
-  background-color: rgb(226, 225, 225)  ;
-  font-family: 'Poppins', sans-serif;
+body {
+  background-color: rgb(226, 225, 225);
+  font-family: "Poppins", sans-serif;
 }
-.header{
+
+/* Header */
+
+.Header {
   height: 59px;
 }
-.leftSide{
+.HeaderLeftSide {
   padding-left: 120px;
   padding-top: 5px;
 }
-.logoContainer{
+.HeaderLogoContainer {
   height: 45px;
   width: 45px;
   text-align: center;
   background-color: rgb(255, 103, 103);
 }
-.profile{
+.HeaderProfile {
   padding-top: 9px;
 }
-.linkText{
+.HeaderLinkText {
   color: rgb(1, 118, 196);
   font-size: 14px;
   font-weight: 400;
   text-shadow: cornflowerblue;
-  padding-right: 137px;
+  padding-right: 120px;
+  padding-top: 15px;
+} 
+
+/* Header */
+
+
+
+/* Appointment */
+
+.Appointment{
+  height: 600px;
+}
+.AppointmentLeftSide,.AppointmentRightSide{
+  width: 13%;
+}
+.AppointmentCenter{
+  width: 74%;
+  height:600px;
+  background-color: beige;
+}
+.AppointmentProfileContainer{
+  height:140px;
+  background-color: white;
+  padding-left: 34px;
+}
+.DoctorProfileImage{
+  width: 86px;
+  height: 86px;
+}
+.NameText{
+  font-size: 14px;
+  font-weight: 900;
+}
+.Department{
+  font-size: 12px;
+}
+.ProfileButton{
+  font-size: 12px;
+  font-weight: 600;
+  color:#0176c4;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 14px;
+  padding-left: 10px;
+}
+hr{
+  color: black;
+  z-index: 1000;
+}
+.ProfileBoxTop{
+  padding-top: 35px;
+}
+.ProfileBoxBottom{
+  padding-top: 40px;
+}
+.ImageContainer{
+  width: 85px;
+  height:85px;
+  position: relative;
+  display: inline-block;
+  font-size:14px;
+}
+.IconVideo{
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.068);
+}
+.ImageText {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  white-space: nowrap;
+}
+.TitleText{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.ContentText{
+  font-size: 14px;
+  color: grey;
+}
+.PriceText{
+  font-size: 12px;
+  color: rgba(0, 128, 0, 0.671);
+  font-weight: 600;
+}
+.AppointmentIconContainer{
+background-color: white;
+height: 280px;
+}
+.IconContainerRight{
+  padding-left: 190px;
+  padding-top: 18px;
+}
+.IconContainerLeft{
+  padding-left: 18px;
   padding-top: 15px;
 }
+/* Appointment */
